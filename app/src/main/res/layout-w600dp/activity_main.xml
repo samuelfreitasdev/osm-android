@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout android:id="@+id/activity_main__drawer"
+                                           xmlns:android="http://schemas.android.com/apk/res/android"
+                                           xmlns:app="http://schemas.android.com/apk/res-auto"
+                                           xmlns:tools="http://schemas.android.com/tools"
+                                           android:layout_width="match_parent"
+                                           android:layout_height="match_parent"
+                                           android:fitsSystemWindows="true"
+                                           tools:openDrawer="start">
+
+    <FrameLayout
+            android:id="@+id/activity_main__insets"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true">
+
+        <com.google.android.material.navigation.NavigationView
+                android:id="@+id/activity_main__nav_side"
+                android:layout_width="@dimen/container_horizontal_padding"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:fitsSystemWindows="true"
+                app:elevation="0dp"
+                app:headerLayout="@layout/view_side_header"
+                app:itemBackground="@android:color/transparent"
+                app:menu="@menu/side_main"/>
+
+        <br.com.sf.osm_challenge.ui.widgets.ContainersLayout
+                android:id="@+id/activity_main__containers_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+    </FrameLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+            android:id="@+id/activity_main__nav"
+            android:layout_width="@dimen/nav_drawer_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:headerLayout="@layout/drawer_header"
+            app:menu="@menu/drawer_main"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>
+

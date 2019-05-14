@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+           tools:ignore="ExtraTranslation">
+
+    <string name="application.name">Open Street Maps</string>
+
+    <string name="drawer.menu">MENU</string>
+    <string name="drawer.maps">Mapas</string>
+    <string name="drawer.about">Sobre</string>
+
+    <!-- FRAGMENT MAPS -->
+    <string name="maps.search">Busca</string>
+    <string name="maps.empty_message">"Não foi encontrado nenhum resultado."</string>
+
+    <string name="permission.button_deny">Negar</string>
+    <string name="permission.button_allow">Permitir</string>
+    <string name="permission.location.rationale">Você precisar permitir o acesso a sua localização.</string>
+    <string name="permission.location.denied">As buscas podem não funcionar corretamente sem o acesso a localização.</string>
+    <string name="permission.location.never_askagain">As buscas podem não funcionar corretamente sem o acesso a localização.</string>
+
+    <!-- FRAGMENT PLACE DETAILS-->
+    <string name="place_details.location">Localização</string>
+    <string name="place_details.address">Endereço</string>
+
+    <!-- FRAGMENT ABOUT-->
+    <string name="about.created_by">Samuel Freitas</string>
+    <string name="about.created_in">3 de Maio de 2019</string>
+
+    <!-- COMMON-->
+    <string name="dialog.loading">Carregando</string>
+
+
+
+</resources>

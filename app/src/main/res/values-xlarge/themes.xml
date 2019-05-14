@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="AppTheme.SecondaryActionBar" parent="Theme.GuidelinesCompat.DarkToolbar">
+        <item name="colorPrimary">@color/primary_dark</item>
+        <item name="android:textColorPrimary">@color/material_white</item>
+        <item name="android:textColorSecondary">@color/material_white</item>
+    </style>
+
+</resources>

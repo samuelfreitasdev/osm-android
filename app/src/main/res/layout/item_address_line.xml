@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+    />
+
+    <TextView
+            android:id="@+id/tvText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:padding="4dp"
+            android:ellipsize="end"
+            android:textColor="@color/material_black"
+            tools:text="Microrregião o Sertão de Quixeramobim"
+            android:fontFamily="@font/roboto_thin"/>
+
+</LinearLayout>
